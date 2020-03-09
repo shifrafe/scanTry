@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SelfBook</string>
+    <string name="public_book">Public Book</string>
+    <string name="name_of_the_book">Book name</string>
+    <string name="save">Save</string>
+    <string name="author_name">Author name</string>
+    <string name="photo_image">photo image</string>
+    <string name="add">Add</string>
+    <string name="add_page">add page</string>
+    <string name="delete">delete</string>
+    <string name="recorderd">recorderd</string>
+    <string name="puseRecorder">puseRecorder</string>
+    <string name="playRecorder">playRecorder</string>
+    <string name="shoeImagesBook">shoeImagesBook</string>
+    <string name="user_name">user_name</string>
+    <string name="book_library">Book Library</string>
+    <string name="sound">sound</string>
+    <string name="images">images</string>
+    <string name="cover_page">cover_page</string>
+    <string name="new_book">New Book</string>
+
+    <string name="by_clicking_i_agree_to_terms_and_service">By clicking, I agree to Terms and Service.</string>
+    <string name="connect_with_googlee">Connect with Google</string>
+    <string name="_1000_authors_free_download_offline_reading">1000+ Authors, Free \ndownload, Offline reading</string>
+    <string name="the_dreaming_reality">The Dreaming \nReality</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create_book.CreateBookActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/recyclerV"
+            android:layout_width="match_parent"
+            android:layout_height="468dp"
+            android:layout_above="@+id/publicBook"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="182dp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/titleCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="21dp"
+            android:fontFamily="casual"
+            android:text="@string/new_book"
+            android:textColor="@color/colorCreateText"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/nameBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="89dp"
+            android:ems="10"
+            android:hint="@string/name_of_the_book"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorCreateText" />
+
+        <EditText
+            android:id="@+id/authorBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="137dp"
+            android:ems="10"
+            android:hint="@string/author_name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorCreateText" />
+
+        <Button
+            android:id="@+id/saveBook"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginBottom="9dp"
+            android:background="@color/colorCreateText"
+            android:fontFamily="casual"
+            android:text="@string/save"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <CheckBox
+            android:id="@+id/publicBook"
+            android:layout_width="122dp"
+            android:layout_height="18dp"
+            android:layout_above="@+id/saveBook"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="2dp"
+            android:buttonTint="@color/colorCreateText"
+            android:fontFamily="casual"
+            android:text="@string/public_book"
+            android:textColor="@color/colorCreateText" />
+
+
+        <ImageView
+            android:id="@+id/addPage"
+            android:layout_width="136dp"
+            android:layout_height="111dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="107dp"
+            android:layout_marginLeft="107dp"
+            android:layout_marginBottom="1dp"
+            android:layout_toEndOf="@+id/saveBook"
+            android:layout_toRightOf="@+id/saveBook"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_add" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

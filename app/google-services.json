@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "610151964563",
+    "firebase_url": "https://booklibrary-f24cd.firebaseio.com",
+    "project_id": "booklibrary-f24cd",
+    "storage_bucket": "booklibrary-f24cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610151964563:android:e02ab03d7ef920209f9266",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610151964563-b9goglrsjl44g43l3psn8pejaan2hqp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "59ebce3ddde08ed0b3b3fea386ad259e379c124f"
+          }
+        },
+        {
+          "client_id": "610151964563-i233kljvruego819kdskkq7gv5bsv7e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn0jsNluB-aal0ZF5A0lxgBwcdCKnMW-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610151964563-i233kljvruego819kdskkq7gv5bsv7e2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

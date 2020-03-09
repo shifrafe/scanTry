@@ -1,0 +1,23 @@
+<tabs>
+    <tab
+        id="@+id/home"
+        icon="@drawable/ic_eye_1"
+        activeColor="@color/orange"
+        inActiveColor="@color/txt_color" />
+    <tab
+        id="@+id/transaction"
+        icon="@drawable/ic_font_1"
+        activeColor="@color/orange"
+        inActiveColor="@color/txt_color" />
+    <tab
+        id="@+id/partners"
+        icon="@drawable/ic_brightness_1"
+        activeColor="@color/orange"
+        inActiveColor="@color/txt_color" />
+    <tab
+        id="@+id/account"
+        icon="@drawable/ic_zoom_1"
+        activeColor="@color/orange"
+        inActiveColor="@color/txt_color" />
+
+</tabs>
